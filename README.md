@@ -1,17 +1,17 @@
 # BDGRN
 # Using Bayesian correlations to infer gene regulatory network
 
-Data
-我们在data文件夹中提供了论文中使用的仿真数据和实验数据(simulated, experimental)，同时我们也给出了一个示例数据集example.
+## Data
+We provide all datasets used in our paper, including simulated and experimental data. We also provide an example datasets here(`/BDGRN/data/example`).
 
-Compute AUPRC ratio
-如果您想要利用BDGRN 并计算 AUPRC ratio， 可以直接运行
+## Quick Start
+You can start with `example.R`, which can directly used our algorithm to predict gene association on the example datasets, its outputs are AUPRC/AUROC ratios and EPR (early precision ratio).
 
-Compute epr(early precision)
-可直接运行
+## Compute AUPRC/AUROC ratio
+If you want to take advantage of our BDGRN to compute AUPRC/AUROC/EP ratio, you can run `example.R`.
+In addition, the specific calculation function is defined in `computer.R`.
 
-Compute AUROC 
-可直接运行
+
 
 
 
